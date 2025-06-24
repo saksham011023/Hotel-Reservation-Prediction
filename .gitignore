@@ -1,9 +1,9 @@
-# # ignore virtual env and site-packages
-# hotel/
-# # ignore model artifacts
-# *.pkl
-# # ignore DLLs
-# *.dll
-# # python extras
-# __pycache__/
-# *.py[cod]
+# ignore virtual env and site-packages
+hotel/
+# ignore model artifacts
+*.pkl
+# ignore DLLs
+*.dll
+# python extras
+__pycache__/
+*.py[cod]
