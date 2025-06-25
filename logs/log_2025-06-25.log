@@ -1,0 +1,123 @@
+2025-06-25 15:29:32,133 -INFO -Starting our model training pipeline
+2025-06-25 15:29:32,133 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:29:32,133 -INFO -Loading Data
+2025-06-25 15:29:32,269 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:29:32,269 -INFO -Loading Data
+2025-06-25 15:29:32,384 -INFO -Initializing our model.
+2025-06-25 15:29:32,384 -INFO -Starting our hyperparameter tuning
+2025-06-25 15:29:32,384 -INFO -Starting our Hyperparameter Training
+2025-06-25 15:29:32,385 -ERROR -Error while during Hypermater Tuning. Found input variables with inconsistent numbers of samples: [30462, 8410]
+2025-06-25 15:29:32,385 -ERROR -Error in Model Training pipeline. 'ValueError' object has no attribute 'exc_info'
+2025-06-25 15:34:16,589 -INFO -Starting our model training pipeline
+2025-06-25 15:34:16,589 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:34:16,589 -INFO -Loading Data
+2025-06-25 15:34:16,637 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:34:16,637 -INFO -Loading Data
+2025-06-25 15:34:16,663 -INFO -Initializing our model.
+2025-06-25 15:34:16,663 -INFO -Starting our hyperparameter tuning
+2025-06-25 15:34:16,663 -INFO -Starting our Hyperparameter Training
+2025-06-25 15:34:18,548 -ERROR -Error while during Hypermater Tuning. A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+Detailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.
+2025-06-25 15:34:18,548 -ERROR -Error in Model Training pipeline. 'TerminatedWorkerError' object has no attribute 'exc_info'
+2025-06-25 15:39:40,048 -INFO -Starting our model training pipeline
+2025-06-25 15:39:40,048 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:39:40,048 -INFO -Loading Data
+2025-06-25 15:39:40,101 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:39:40,101 -INFO -Loading Data
+2025-06-25 15:39:40,119 -INFO -Initializing our model.
+2025-06-25 15:39:40,119 -INFO -Starting our hyperparameter tuning
+2025-06-25 15:39:40,119 -INFO -Starting our Hyperparameter Training
+2025-06-25 15:39:42,741 -ERROR -Error while during Hypermater Tuning. A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+Detailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.
+2025-06-25 15:39:42,741 -ERROR -Error in Model Training pipeline. 'TerminatedWorkerError' object has no attribute 'exc_info'
+2025-06-25 15:40:59,326 -INFO -Starting our model training pipeline
+2025-06-25 15:40:59,326 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:40:59,326 -INFO -Loading Data
+2025-06-25 15:41:01,354 -ERROR -Error while loading the data Error tokenizing data. C error: out of memory
+2025-06-25 15:41:01,355 -INFO -Error while loading and splitting the data.
+2025-06-25 15:41:01,355 -ERROR -Error in Model Training pipeline. CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-06-25 15:44:13,696 -INFO -Starting our model training pipeline
+2025-06-25 15:44:13,696 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:44:13,696 -INFO -Loading Data
+2025-06-25 15:44:13,708 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:44:13,708 -INFO -Loading Data
+2025-06-25 15:44:13,714 -INFO -Error while loading and splitting the data.
+2025-06-25 15:44:13,714 -ERROR -Error in Model Training pipeline. CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-06-25 15:45:15,752 -INFO -Starting our model training pipeline
+2025-06-25 15:45:15,752 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:45:15,752 -INFO -Loading Data
+2025-06-25 15:45:15,752 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:45:15,752 -INFO -Loading Data
+2025-06-25 15:45:15,768 -INFO -Error while loading and splitting the data. 'NoneType' object has no attribute 'drop'
+2025-06-25 15:45:15,768 -ERROR -Error in Model Training pipeline. 'AttributeError' object has no attribute 'exc_info'
+2025-06-25 15:50:04,019 -INFO -Starting our model training pipeline
+2025-06-25 15:50:04,019 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:50:04,019 -INFO -Loading Data
+2025-06-25 15:50:04,031 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:50:04,031 -INFO -Loading Data
+2025-06-25 15:50:04,047 -INFO -Error while loading and splitting the data. 'TextFileReader' object has no attribute 'drop'
+2025-06-25 15:50:04,047 -ERROR -Error in Model Training pipeline. 'AttributeError' object has no attribute 'exc_info'
+2025-06-25 15:52:17,975 -INFO -Starting our model training pipeline
+2025-06-25 15:52:17,975 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 15:52:17,975 -INFO -Loading Data
+2025-06-25 15:52:18,033 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 15:52:18,033 -INFO -Loading Data
+2025-06-25 15:52:18,058 -INFO -Initializing our model.
+2025-06-25 15:52:18,058 -INFO -Starting our hyperparameter tuning
+2025-06-25 15:52:18,058 -INFO -Starting our Hyperparameter Training
+2025-06-25 15:52:45,565 -INFO -Hyperparameter Tuning completed.
+2025-06-25 15:52:45,565 -INFO -Best parametes are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_length': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-06-25 15:52:45,565 -INFO -Evaluating our model
+2025-06-25 15:52:45,619 -INFO -Accuracy score : 0.8810939357907254
+2025-06-25 15:52:45,619 -INFO -Recall score : 0.9022592152199762
+2025-06-25 15:52:45,619 -INFO -Precision score : 0.865617157198266
+2025-06-25 15:52:45,619 -INFO -F1 score : 0.8835584536562645
+2025-06-25 15:52:45,621 -INFO -Saving the model
+2025-06-25 15:52:45,668 -INFO -Model saved to artifacts/models/lgbm_model.pkl
+2025-06-25 15:52:45,668 -INFO -Model Training successfully completed
+2025-06-25 20:59:48,048 -INFO -Starting our model training pipeline
+2025-06-25 20:59:48,048 -INFO -Starting our MLFLOW Experimentation.
+2025-06-25 20:59:48,073 -INFO -Logging the training and testing dataset to MLFLOW
+2025-06-25 20:59:48,073 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 20:59:48,073 -INFO -Loading Data
+2025-06-25 20:59:48,146 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 20:59:48,146 -INFO -Loading Data
+2025-06-25 20:59:48,186 -INFO -Initializing our model.
+2025-06-25 20:59:48,186 -INFO -Starting our hyperparameter tuning
+2025-06-25 20:59:48,186 -INFO -Starting our Hyperparameter Training
+2025-06-25 21:00:10,693 -INFO -Hyperparameter Tuning completed.
+2025-06-25 21:00:10,703 -INFO -Best parametes are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_length': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-06-25 21:00:10,703 -INFO -Evaluating our model
+2025-06-25 21:00:10,755 -INFO -Accuracy score : 0.8810939357907254
+2025-06-25 21:00:10,755 -INFO -Recall score : 0.9022592152199762
+2025-06-25 21:00:10,755 -INFO -Precision score : 0.865617157198266
+2025-06-25 21:00:10,755 -INFO -F1 score : 0.8835584536562645
+2025-06-25 21:00:10,755 -INFO -Saving the model
+2025-06-25 21:00:10,810 -INFO -Model saved to artifacts/models/lgbm_model.pkl
+2025-06-25 21:00:10,810 -INFO -Logging the Model into MLFLOW
+2025-06-25 21:00:10,812 -INFO -Logging model params and metrics. to MLFLOW
+2025-06-25 21:00:11,056 -INFO -Model Training successfully completed
+2025-06-25 21:05:30,229 -INFO -Starting our model training pipeline
+2025-06-25 21:05:30,230 -INFO -Starting our MLFLOW Experimentation.
+2025-06-25 21:05:30,248 -INFO -Logging the training and testing dataset to MLFLOW
+2025-06-25 21:05:30,248 -INFO -Loading data from artifacts/processed\processed_train.csv
+2025-06-25 21:05:30,248 -INFO -Loading Data
+2025-06-25 21:05:30,302 -INFO -Loading test data artifacts/processed\processed_test.csv
+2025-06-25 21:05:30,302 -INFO -Loading Data
+2025-06-25 21:05:30,333 -INFO -Initializing our model.
+2025-06-25 21:05:30,333 -INFO -Starting our hyperparameter tuning
+2025-06-25 21:05:30,333 -INFO -Starting our Hyperparameter Training
+2025-06-25 21:05:52,463 -INFO -Hyperparameter Tuning completed.
+2025-06-25 21:05:52,463 -INFO -Best parametes are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_length': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-06-25 21:05:52,463 -INFO -Evaluating our model
+2025-06-25 21:05:52,518 -INFO -Accuracy score : 0.8810939357907254
+2025-06-25 21:05:52,518 -INFO -Recall score : 0.9022592152199762
+2025-06-25 21:05:52,518 -INFO -Precision score : 0.865617157198266
+2025-06-25 21:05:52,518 -INFO -F1 score : 0.8835584536562645
+2025-06-25 21:05:52,518 -INFO -Saving the model
+2025-06-25 21:05:52,579 -INFO -Model saved to artifacts/models/lgbm_model.pkl
+2025-06-25 21:05:52,579 -INFO -Logging the Model into MLFLOW
+2025-06-25 21:05:52,588 -INFO -Logging model params and metrics. to MLFLOW
+2025-06-25 21:05:52,638 -INFO -Model Training successfully completed

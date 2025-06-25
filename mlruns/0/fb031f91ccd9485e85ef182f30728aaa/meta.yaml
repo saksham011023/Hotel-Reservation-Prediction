@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/SAKSHAM/Desktop/Hotel-Reservation-Prediction/mlruns/0/fb031f91ccd9485e85ef182f30728aaa/artifacts
+end_time: 1750865752650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb031f91ccd9485e85ef182f30728aaa
+run_name: calm-snake-461
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750865730111
+status: 3
+tags: []
+user_id: SAKSHAM

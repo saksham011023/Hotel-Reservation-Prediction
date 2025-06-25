@@ -28,7 +28,10 @@ def read_yaml(file_path):
 def load_data(path):
     try:
         logger.info("Loading Data")
-        return pd.read_csv(path)
+        chunks=pd.read_csv(path,chunksize=10000)
+        df = pd.concat(chunks)                         # Combine to DataFrame
+        return df
+
 
     except Exception as e:
         logger.error(f"Error while loading the data {e}")
