@@ -31,7 +31,7 @@ class DataIngestion:
             logger.info(f"CSV file is successfully downloaded to {RAW_FILE_PATH}")
 
         except Exception as e:
-            logger.error("Error while downloading the csv file")
+            logger.error(f"Error while downloading the csv file {e}")
             raise CustomException("Failed to download csv file.",e)
         
     def split_data(self):

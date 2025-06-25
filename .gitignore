@@ -1,5 +1,8 @@
 # ignore virtual env and site-packages
 hotel/
+mlruns/
+logs/
+Hotel_Reservation_Prediction.egg-info/
 # ignore model artifacts
 *.pkl
 # ignore DLLs
@@ -7,3 +10,4 @@ hotel/
 # python extras
 __pycache__/
 *.py[cod]
+
