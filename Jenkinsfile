@@ -53,6 +53,29 @@ pipeline{
                 }
                 }
             }
+            stage('Deploy to Google Cloud Run'){
+            steps{
+                withCredentials([file(credentialsId: 'gcp-key', variable : "GOOGLE_APPLICATION_CREDENTIALS")]){
+                    script{
+                        echo 'Deploy to Google Cloud Run................'
+                        sh '''
+                        export PATH=$PATH:${GCLOUD_PATH}
+
+                        gcloud auth activate-service-account --key-file="\$GOOGLE_APPLICATION_CREDENTIALS"
+
+                        gcloud config set project ${GCP_PROJECT}
+
+                        gcloud run deploy hotel-reservation-prediction \
+                            --image=gcr.io/${GCP_PROJECT}/hotel-reservation-prediction  \
+                            --platform=managed \
+                            --region=us-central1 \
+                            --allow-unauthenticated
+                        '''
+
+                    }
+                }
+                }
+            }
         } 
     }
 
