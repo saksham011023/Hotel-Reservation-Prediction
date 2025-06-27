@@ -16,6 +16,6 @@ RUN pip install --no-cache-dir -e .
 
 RUN python pipeline/training_pipeline.py
 
-EXPOSE 5000
+EXPOSE 8080
 
-CMD ['python','application.py']
+CMD ["python","application.py"]
